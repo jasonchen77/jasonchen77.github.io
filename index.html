@@ -4,6 +4,16 @@
     <title>Visual Timeline</title>
     <meta charset="utf-8">
     <link href="visualtimeline.css" rel="stylesheet">
+    <script>
+        var currentPos = 0;
+        var images = ["highline.jpg", "grandOut.jpg", "Fig2.3.jpg"];
+
+        function imageCycle() {
+        	if (++currentPos >= images.length) currentPos = 0;
+                document.getElementById("indexImage").src = images[currentPos];
+        }
+     	setInterval(imageCycle, 1000);
+    </script>
 </head>
 <body>
 <div id="wrapper">
@@ -18,7 +28,7 @@
         </ul>
     </div>
     <div id="content">
-        <img src="highline.jpg" alt="Highline" width="333" height="156" class="">
+        <img id="indexImage" src="highline.jpg" alt="Highline" width="333" height="156" class="">
         <h2>Abstract</h2>
         <p>
             The goal of this project is to highlight differences between two contrasting images taken
