@@ -73,3 +73,12 @@ label { float: left;
 input, textarea { margin-bottom: 20px;
     display: block;
 }
+#liveSearch {margin-right: 120px;
+    float: right;
+    color: #d35400;
+    background-color: #85c1e9;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;}

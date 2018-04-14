@@ -1,0 +1,30 @@
+[
+  {
+    "name":"Doyers Street",
+    "shortname":"Doyers_Street"
+  },
+  {
+    "name":"Hong Kong",
+    "shortname":"Hong_Kong"
+  },
+  {
+    "name":"Factory",
+    "shortname":"Factory"
+  },
+  {
+    "name":"Seattle",
+    "shortname":"Seattle"
+  },
+  {
+    "name":"Flatiron Building",
+    "shortname":"Flatiron_Building"
+  },
+  {
+    "name":"Grand Central Station",
+    "shortname":"Grand_Central_Station"
+  },
+  {
+    "name":"New York",
+    "shortname":"New_York"
+  }
+]
